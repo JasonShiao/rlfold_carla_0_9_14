@@ -1,7 +1,8 @@
 # RLfOLD
 This is the implementation of RLfOLD, which is described in:
 
-> **RLfOLD: Reinforcement Learning from Online Demonstrations in Urban Autonomous Driving**
+> [**RLfOLD: Reinforcement Learning from Online Demonstrations in Urban Autonomous Driving**](https://ojs.aaai.org/index.php/AAAI/article/view/29049)
+
 >
 > [Daniel Coelho](https://github.com/DanielCoelho112), 
 [Miguel Oliveira](https://github.com/miguelriemoliveira),
@@ -9,15 +10,19 @@ This is the implementation of RLfOLD, which is described in:
 >
 > [AAAI 2024](https://aaai.org/aaai-conference/)<br/>
 
-If you find our work useful, please consider citing: WIP
-<!-- ```bibtex
-@inproceedings{mile2022,
-  title     = {Model-Based Imitation Learning for Urban Driving},
-  author    = {Anthony Hu and Gianluca Corrado and Nicolas Griffiths and Zak Murez and Corina Gurau
-   and Hudson Yeo and Alex Kendall and Roberto Cipolla and Jamie Shotton},
-  booktitle = {Advances in Neural Information Processing Systems ({NeurIPS})},
-  year = {2022}
-} -->
+If you find our work useful, please consider citing: 
+```bibtex
+@inproceedings{coelho2024rlfold,
+  title={RLfOLD: Reinforcement Learning from Online Demonstrations in Urban Autonomous Driving},
+  author={Coelho, Daniel and Oliveira, Miguel and Santos, Vitor},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={10},
+  pages={11660--11668},
+  year={2024}
+}
+```
+  
 
 ## Setup
 - Clone the repository with `git clone git@github.com:DanielCoelho112/rlfold.git`
