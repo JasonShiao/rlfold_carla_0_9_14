@@ -2,10 +2,10 @@ import numpy as np
 from collections import deque
 import carla
 
-from carla_gym.core.obs_manager.object_finder.vehicle import ObsManager as OmVehicle
-from carla_gym.core.obs_manager.object_finder.pedestrian import ObsManager as OmPedestrian
-from carla_gym.utils.hazard_actor import lbc_hazard_vehicle, lbc_hazard_walker
-from carla_gym.utils.traffic_light import TrafficLightHandler
+from carla_env.core.obs_manager.object_finder.vehicle import ObsManager as OmVehicle
+from carla_env.core.obs_manager.object_finder.pedestrian import ObsManager as OmPedestrian
+from carla_env.utils.hazard_actor import lbc_hazard_vehicle, lbc_hazard_walker
+from carla_env.utils.traffic_light import TrafficLightHandler
 
 
 class Valeo(object):

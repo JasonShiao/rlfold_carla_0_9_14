@@ -31,6 +31,15 @@ If you find our work useful, please consider citing:
 where `results_path` is the path where the results will be written, and `rlfold_path` is the path of the rlfold repository.
 
 
+## Set environment variables
+```
+export RLFOLD_ROOT=/home/jshiao/Dev/rlfold
+export PYTHONPATH=$PYTHONPATH:/home/jshiao/Dev/rlfold
+
+# $HOME
+# $USER
+```
+
 ## Training
 - Start the CARLA server
 - Run: `python3 rlfold/run/python3 main.py -en rlfold_original`

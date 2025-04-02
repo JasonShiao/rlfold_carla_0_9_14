@@ -2,7 +2,7 @@ from enum import Enum
 import numpy as np
 
 from .controller import PIDController
-import carla_gym.utils.transforms as trans_utils
+import carla_env.utils.transforms as trans_utils
 
 
 class RoadOption(Enum):

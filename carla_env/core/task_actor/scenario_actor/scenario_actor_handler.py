@@ -31,7 +31,7 @@ class ScenarioActorHandler(object):
             # make agents
             module_str, class_str = actor_config[sa_id]['agent_entry_point'].split(':')
             AgentClass = getattr(
-                import_module('carla_gym.core.task_actor.scenario_actor.agents.' + module_str),
+                import_module('carla_env.core.task_actor.scenario_actor.agents.' + module_str),
                 class_str)
             self.scenario_agents[sa_id] = AgentClass(self.scenario_actors[sa_id], self.hero_vehicles,
                                                      **actor_config[sa_id].get('agent_kwargs', {}))
